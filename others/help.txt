@@ -1,0 +1,8 @@
+La structure des fichiers est organisée de la manière suivante :
+
+Le fichier config.php contient les informations de configuration de la base de données.
+Le fichier index.php est le point d'entrée de l'application qui dirige les requêtes vers les différentes actions du contrôleur.
+Le répertoire controllers contient le fichier RecipeController.php qui gère la logique des recettes.
+Le répertoire models contient le fichier Recipe.php qui représente le modèle des recettes.
+Le répertoire views contient le répertoire recipe qui contient les vues spécifiques aux recettes, y compris index.php, create.php et edit.php.
+Vous pouvez créer ces fichiers et organiser votre projet selon cette structure. Assurez-vous également d'inclure les fichiers Bootstrap nécessaires dans les vues pour styliser votre application correctement.

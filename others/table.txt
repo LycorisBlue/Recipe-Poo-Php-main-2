@@ -1,0 +1,23 @@
+Voici un exemple de structure de base de données pour votre application de recettes de cuisine :
+
+1. Table "recipes" :
+   - id (int, clé primaire, auto-incrémentée)
+   - title (varchar)
+   - description (text)
+   - instructions (text)
+   - created_at (datetime)
+   - updated_at (datetime)
+
+2. Table "ingredients" :
+   - id (int, clé primaire, auto-incrémentée)
+   - recipe_id (int, clé étrangère référençant la table "recipes")
+   - name (varchar)
+   - quantity (varchar)
+   - created_at (datetime)
+   - updated_at (datetime)
+
+La table "recipes" stocke les informations générales sur les recettes, tandis que la table "ingredients" est utilisée pour stocker les ingrédients associés à chaque recette.
+
+Vous pouvez créer ces tables dans votre base de données en utilisant le système de gestion de base de données de votre choix, tel que phpMyAdmin ou la ligne de commande MySQL. Assurez-vous de mettre à jour les informations de connexion à la base de données dans le fichier `config.php` de votre application.
+
+Notez que cette structure est un exemple et peut être ajustée en fonction de vos besoins spécifiques pour votre application de recettes de cuisine.
